@@ -3,7 +3,11 @@
 🚀 **A comparative study of centralized vs. decentralized Monte Carlo Tree Search (MCTS) for multi-robot navigation in Gazebo simulation.**
 
 ## 📝 Overview
-This project explores **Monte Carlo Tree Search (MCTS)** as a decision-making framework for **four TurtleBot3 Waffle robots** navigating through a custom-built Gazebo environment. The goal is to analyze the efficiency of **Centralized MCTS** (where a global planner coordinates all robots) versus **Decentralized MCTS** (where each robot makes independent decisions).
+## 📝 Overview
+This project explores **Monte Carlo Tree Search (MCTS)** for multi-robot navigation in a **dynamic environment**. The simulation features **four TurtleBot3 Waffle robots** in a Gazebo world that includes **moving obstacles**, making the task more challenging. 
+
+The goal is to analyze the efficiency of **Centralized MCTS** (where a global planner coordinates all robots) versus **Decentralized MCTS** (where each robot makes independent decisions). The presence of **dynamic obstacles** introduces real-world complexity, requiring the robots to continuously adapt their paths.
+
 
 ## 🔹 Approach
 - **Centralized MCTS** 📡: A single controller plans paths for all robots, optimizing movement collectively.
