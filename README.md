@@ -38,10 +38,38 @@ This project explores **Monte Carlo Tree Search (MCTS)** as a decision-making fr
    sudo apt install gazebo
    sudo apt install ros-humble-gazebo-ros-pkgs
 ```
-5. Install Turtlebot3 Packages
+4. Install Turtlebot3 Packages
+```bash
+   sudo apt update
+   sudo apt install ros-humble-turtlebot3*
+```
+You can use the TurtleBot model of your choice but make sure to export them well before 
+## Steps to setup and run the package
+- Create a workspace with the name of your choice with a `src` folder in it.For Example.
+```bash
+mkdir -p ~/ MCTS_ws/src
+```
 
-## Steps to run the package\
-- Create a workspace with the name of your choice.For Example.
+- Place the Packages `mcts` and `turtlebot3_multi_robot` in the `src` folder of your workspace and run the following commands in your workspace.
+```bash
+colcon build --symlink-install 
+source install/setup.bash
+```
+
+- To Open the Gazebo Environment with multiple robots at origin and with obstacles.
+```bash
+ros2 launch turtlebot3_multi_robot gazebo_multi_robot_custom_world.launch.py enable_drive:=False
+```
+
+- To launch the Decentralized MCTS which open 4 terminals runnning the nodes for each TurtleBot3.
+```bash
+ros2 launch mcts Decentralized_MCTS_multi_window.py
+```
+
+- To launch Centralized MCTS.
+```bash
+ros2 run mcts Centralized_MCTS
+```
 
 ## 📌 Future Improvements
 - Implement **adaptive communication strategies** for decentralized MCTS.  
