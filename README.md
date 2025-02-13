@@ -34,8 +34,10 @@ This project explores **Monte Carlo Tree Search (MCTS)** as a decision-making fr
 2. This Project used **ROS2 Humble Hawksbill** so make sure to install that too.
    Link for ROS2 Humble Documentation - https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html
 3. Gazebo Installation - Enter this Command in the Terminal
-   `sudo apt install gazebo`
-   `sudo apt install ros-humble-gazebo-ros-pkgs`
+```bash
+   sudo apt install gazebo
+   sudo apt install ros-humble-gazebo-ros-pkgs
+```
 5. Install Turtlebot3 Packages
 
 ## Steps to run the package\
