@@ -27,7 +27,19 @@ This project explores **Monte Carlo Tree Search (MCTS)** as a decision-making fr
 - **Simulation:** Gazebo + ROS  
 - **Robots:** TurtleBot3 Waffle  
 - **Algorithm:** Monte Carlo Tree Search (MCTS)  
-- **Programming Language:** Python  
+- **Programming Language:** Python
+
+## Pre-requisites to Run the Package without issues.
+1. Make sure have the **Ubuntu-22.04.5 (Jammy Jellyfish)** LTS installed 
+2. This Project used **ROS2 Humble Hawksbill** so make sure to install that too.
+   Link for ROS2 Humble Documentation - https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html
+3. Gazebo Installation - Enter this Command in the Terminal
+   `sudo apt install gazebo`
+   `sudo apt install ros-humble-gazebo-ros-pkgs`
+5. Install Turtlebot3 Packages
+
+## Steps to run the package\
+- Create a workspace with the name of your choice.For Example.
 
 ## 📌 Future Improvements
 - Implement **adaptive communication strategies** for decentralized MCTS.  
@@ -45,3 +57,6 @@ This project explores **Monte Carlo Tree Search (MCTS)** as a decision-making fr
 Contributions and feedback are welcome! Feel free to open an issue or reach out.  
 
 ---
+
+### Acknowledgements
+The gazebo world for this project is created using some of the files from the repository **TurtleBot3 multi-robot environment** provided by [arshadlab/turtlebot3_multi_robot](https://github.com/arshadlab/turtlebot3_multi_robot). Special thanks to the original authors for their contributions to multi-robot navigation research and simulation.  
