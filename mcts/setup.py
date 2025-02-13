@@ -27,9 +27,7 @@ setup(
             'mcts_tb2 = mcts.mcts_tb2:main',
             'mcts_tb3 = mcts.mcts_tb3:main',
             'mcts_tb4 = mcts.mcts_tb4:main',
-            'centralized = mcts.centralized:main',
-            'test = mcts.test:main',
-            'test2 = mcts.test2:main',
+            'Centralized_MCTS = mcts.Centralized_MCTS:main',
         ],
     },
 )
