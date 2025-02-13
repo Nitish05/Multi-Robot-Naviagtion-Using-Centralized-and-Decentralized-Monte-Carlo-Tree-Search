@@ -30,15 +30,15 @@ This project explores **Monte Carlo Tree Search (MCTS)** as a decision-making fr
 - **Programming Language:** Python
 
 ## Pre-requisites to Run the Package without issues.
-1. Make sure have the **Ubuntu-22.04.5 (Jammy Jellyfish)** LTS installed 
-2. This Project used **ROS2 Humble Hawksbill** so make sure to install that too.
+- Make sure have the **Ubuntu-22.04.5 (Jammy Jellyfish)** LTS installed 
+- This Project used **ROS2 Humble Hawksbill** so make sure to install that too.
    Link for ROS2 Humble Documentation - https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html
-3. Gazebo Installation - Enter this Command in the Terminal
+- Gazebo Installation - Enter this Command in the Terminal
 ```bash
    sudo apt install gazebo
    sudo apt install ros-humble-gazebo-ros-pkgs
 ```
-4. Install Turtlebot3 Packages
+- Install Turtlebot3 Packages
 ```bash
    sudo apt update
    sudo apt install ros-humble-turtlebot3*
