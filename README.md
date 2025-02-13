@@ -1,4 +1,4 @@
-# Multi-Robot Navigation Using Centralized and Decentralized Monte Carlo Tree Search
+# Multi-Robot Navigation in Dynamic Environments Using Centralized and Decentralized Monte Carlo Tree Search
 
 🚀 **A comparative study of centralized vs. decentralized Monte Carlo Tree Search (MCTS) for multi-robot navigation in Gazebo simulation.**
 
