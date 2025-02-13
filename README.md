@@ -45,12 +45,12 @@ This project explores **Monte Carlo Tree Search (MCTS)** as a decision-making fr
 ```
 You can use the TurtleBot model of your choice but make sure to export them well before 
 ## Steps to setup and run the package
-- Create a workspace with the name of your choice with a `src` folder in it.For Example.
+- Create a workspace with the name of your choice with a `src` folder in it. For Example.
 ```bash
 mkdir -p ~/ MCTS_ws/src
 ```
 
-- Place the Packages `mcts` and `turtlebot3_multi_robot` in the `src` folder of your workspace and run the following commands in your workspace.
+- Place the packages `mcts` and `turtlebot3_multi_robot` in the `src` folder of your workspace and run the following commands in your workspace.
 ```bash
 colcon build --symlink-install 
 source install/setup.bash
