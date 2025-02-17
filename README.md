@@ -7,7 +7,7 @@ This project explores **Monte Carlo Tree Search (MCTS)** for multi-robot navigat
 
 The goal is to analyze the efficiency of **Centralized MCTS** (where a global planner coordinates all robots) versus **Decentralized MCTS** (where each robot makes independent decisions). The presence of **dynamic obstacles** introduces real-world complexity, requiring the robots to continuously adapt their paths.
 
-![Multi-Robot MCTS in Action](MCTS(1).gif)
+![Multi-Robot MCTS in Action](MCTS (1).gif)
 
 ## 🔹 Approach
 - **Centralized MCTS** 📡: A single controller plans paths for all robots, optimizing movement collectively.
